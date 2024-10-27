@@ -37,11 +37,11 @@ body {
 
 #header {
   width: 750px;
-  margin: 35px auto;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   justify-content: space-evenly;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.9px;
   flex-wrap: wrap;
@@ -127,7 +127,7 @@ b {
 
   #header {
     width: 280px;
-    margin: 8px auto;
+    margin: 0px auto;
     letter-spacing: 0.3px;
     display: flex;
     flex-direction: column;
@@ -137,9 +137,10 @@ b {
     flex-wrap: wrap;
   }
 
+
   #main {
     width: 280px;
-    margin: 8px auto;
+    margin: 0px auto;
     letter-spacing: 0.3px;
     background-color: white;
     display: flex;
@@ -151,7 +152,7 @@ b {
 
   .color-h1 {
     background-color: yellow;
-    width: 200px;
+    width: 280px;
     position: relative;
     top: -15px;
     left: -10px;
